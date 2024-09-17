@@ -1,0 +1,276 @@
+*{padding: opx;
+  margin: opx;}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: navy;}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 60%;}
+nav a{ text-decoration: none;
+       text-transform: capitaliz;
+       color: white;} 
+nav a:hover{color: black;}       
+.header{display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(177, 217, 233);
+    width: 100%;
+    height: 85vh;}
+
+
+.fa-brands{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 50%;
+    background-color:navy;
+    color: white;}
+    
+.fb{margin-top:100px ;}
+.fb:hover{
+    
+   animation: bounce 1s infinite;
+   
+   }
+   /* @keyframes fb{
+
+   
+    0%{top: opx;
+       left: 0px;}
+    25%{top: 250px;
+        left: 0px;}
+    
+    75%{top: 250px;
+       left: 250px;}
+    100%{top: 0px;
+       left: 250px;}} */
+  .ins{margin-top: 280px;}
+ .ins:hover{
+    animation: bounce 1s infinite;}
+    @keyframes bounce{
+     0%{transform: translatey(0px);}
+     50%{transform: translateY(-70px);}
+     100%{transform: translateY(opx);}}            
+.you{
+    margin-top: 450px;
+    margin-left:50px;}
+.you:hover{
+    animation: bounce 1s infinite;}
+    @keyframes bounce{
+     0%{transform: translatey(0px);}
+     50%{transform: translateY(-70px);}
+     100%{transform: translateY(opx);}}  
+.twi{
+    margin-top:70px ;
+    margin-left:0px ;}
+.twi:hover{animation: bounce 1s infinite;}
+@keyframes bounce{
+ 0%{transform: translatey(0px);}
+ 50%{transform: translateY(-70px);}
+ 100%{transform: translateY(opx);}}  
+
+.lin{margin-top: 250px;}
+.lin:hover{animation: bounce 1s infinite;}
+@keyframes bounce{
+ 0%{transform: translatey(0px);}
+ 50%{transform: translateY(-70px);}
+ 100%{transform: translateY(opx);}} 
+
+.what{
+    margin-top: 450px;}
+.what:hover{
+    animation: bounce 1s infinite;}
+    @keyframes bounce{
+     0%{transform: translatey(0px);}
+     50%{transform: translateY(-70px);}
+     100%{transform: translateY(opx);}}  
+   
+.sky{
+    margin-top: 70px;}
+.sky:hover{animation: bounce 1s infinite;}
+@keyframes bounce{
+ 0%{transform: translatey(0px);}
+ 50%{transform: translateY(-70px);}
+ 100%{transform: translateY(opx);}}  
+
+    .tik{
+    margin-top: 250px;}
+.tik:hover{animation: bounce 1s infinite;}
+@keyframes bounce{
+ 0%{transform: translatey(0px);}
+ 50%{transform: translateY(-70px);}
+ 100%{transform: translateY(opx);}}      
+.git{
+    margin-top: 450px;}              
+.git:hover{animation: bounce 1s infinite;}
+@keyframes bounce{
+ 0%{transform: translatey(0px);}
+ 50%{transform: translateY(-70px);}
+ 100%{transform: translateY(opx);}}               
+h1{
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: navy;}
+.img1{
+    padding-left: 80px;
+   transition: all 1s ease-in-out;}
+.img1:hover{
+    transform: rotate(360deg);}
+   
+.img5{padding-left: 80px;}
+.img9{padding-left: 80px;}      
+.gallery{ width: 100%;
+        height: auto;
+       background-color: rgb(177, 217, 233);}
+.img2{transition:all 1s ease-in-out;}
+.img2:hover{
+    transform: rotate(360deg);}
+    .img3{transition:all 1s ease-in-out;}
+    .img3:hover{
+        transform: rotate(360deg);}
+ .img4{transition:all 1s ease-in-out;}       
+        .img4:hover{
+            transform: rotate(360deg);}
+  .img5{transition:all 1s ease-in-out;}          
+            .img5:hover{
+                transform: rotate(360deg);}
+  .img6{transition:all 1s ease-in-out;}              
+                .img6:hover{
+                    transform: rotate(360deg);}
+    .img7{transition:all 1s ease-in-out;}                
+                    .img7:hover{
+                        transform: rotate(360deg);}
+     .img8{transition:all 1s ease-in-out;}                   
+                        .img8:hover{
+                            transform: rotate(360deg);}
+   .img9{transition:all 1s ease-in-out;}                         
+                            .img9:hover{
+                                transform: rotate(360deg);}
+    .img10{transition:all 1s ease-in-out;}                            
+                                .img10:hover{
+                                    transform: rotate(360deg);}
+  .img11{transition:all 1s ease-in-out;}                                  
+                                    .img11:hover{
+                                        transform: rotate(360deg);}
+ .img12{transition:all 1s ease-in-out;}                                       
+ .img12:hover{
+                                            transform: rotate(360deg);}
+.card1{background-color: rgb(177, 217, 233);
+      color:navy;
+      text-transform: uppercase;
+      font-style: italic;
+    text-align: center;}
+.card2{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 80px;
+    text-align: center;}
+.card3{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+margin-top: 80px;
+text-align: center;}
+.card4{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+text-align: center;}
+.card5{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 80px;
+   text-align: center;}
+.card6{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 80px;
+   text-align: center;}
+.card7{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;}
+.card8{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 80px;
+   text-align: center;}
+.card9{background-color: rgb(177, 217, 233);
+    color:navy;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 80px;
+    text-align: center;}
+.main{
+    display: flex;
+    justify-content: space-evenly;}
+.cards1{margin-top: 100px;}
+.cards2{margin-top: 100px;}
+.cards3{margin-top: 100px;}
+.card1:hover{
+     animation: bounce 1s infinite;
+    @keyframes bounce{
+     0%{transform: translatey(0px);}
+     50%{transform: translateY(-70px);}
+     100%{transform: translateY(opx);}} }    
+     .card2:hover{
+        animation: bounce 1s infinite;
+       @keyframes bounce{
+        0%{transform: translatey(0px);}
+        50%{transform: translateY(-70px);}
+        100%{transform: translateY(opx);}} }        
+        .card3:hover{
+            animation: bounce 1s infinite;
+           @keyframes bounce{
+            0%{transform: translatey(0px);}
+            50%{transform: translateY(-70px);}
+            100%{transform: translateY(opx);}} }    
+            .card4:hover{
+                animation: bounce 1s infinite;
+               @keyframes bounce{
+                0%{transform: translatey(0px);}
+                50%{transform: translateY(-70px);}
+                100%{transform: translateY(opx);}} }     
+                .card5:hover{
+                    animation: bounce 1s infinite;
+                   @keyframes bounce{
+                    0%{transform: translatey(0px);}
+                    50%{transform: translateY(-70px);}
+                    100%{transform: translateY(opx);}} }    
+                    .card6:hover{
+                        animation: bounce 1s infinite;
+                       @keyframes bounce{
+                        0%{transform: translatey(0px);}
+                        50%{transform: translateY(-70px);}
+                        100%{transform: translateY(opx);}} }     
+                        .card7:hover{
+                            animation: bounce 1s infinite;
+                           @keyframes bounce{
+                            0%{transform: translatey(0px);}
+                            50%{transform: translateY(-70px);}
+                            100%{transform: translateY(opx);}} }    
+                            .card8:hover{
+                                animation: bounce 1s infinite;
+                               @keyframes bounce{
+                                0%{transform: translatey(0px);}
+                                50%{transform: translateY(-70px);}
+                                100%{transform: translateY(opx);}} }    
+                                .card9:hover{
+                                    animation: bounce 1s infinite;
+                                   @keyframes bounce{
+                                    0%{transform: translatey(0px);}
+                                    50%{transform: translateY(-70px);}
+                                    100%{transform: translateY(opx);}} }                      
